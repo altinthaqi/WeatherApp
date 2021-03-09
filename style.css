@@ -4,12 +4,31 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: rgb(161, 160, 160);
+}
+
 body {
   font-family: "montserrat", sans-serif;
-  background-image: url(bg.jpg);
+  background-image: url(bg5.jpg);
+
   background-size: cover;
+  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: top;
+}
+
+body::before {
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .app-wrap {
@@ -38,7 +57,7 @@ header input {
   outline: none;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 16px 0px 16px 0px;
-  border-bottom: 3px solid #df8e00;
+  border-bottom: 3px solid #b1173d;
   color: #313131;
   font-size: 20px;
   font-weight: 300;
