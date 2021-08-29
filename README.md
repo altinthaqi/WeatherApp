@@ -1,5 +1,5 @@
 # WeatherApp
-Deployed Version: https://tino73.github.io/WeatherApp/
+Deployed Version: https://altinthaqi.github.io/WeatherApp/
 
 -About the app:
 As the name says, this app is used to check the weather on different cities and countries around the world.
